@@ -1,2 +1,3 @@
-![Certificacion](https://github.com/user-attachments/assets/254229a9-9c69-4b35-851b-ab17906f8ee4)
+![Certificado](https://github.com/user-attachments/assets/91e51b0f-5804-45b0-901d-998aa25d33f1)
+
 
