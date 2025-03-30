@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mysql1:
+    build: ./mysql1
+    container_name: server-mysql1
+    restart: always
+    env_file:
+      - ./mysql1/.env
+    ports:
+      - "3306:3306"
+
+  mysql2:
+    build: ./mysql2
+    container_name: server-mysql2
+    restart: always
+    env_file:
+      - ./mysql2/.env
+    ports:
+      - "3307:3306"
+

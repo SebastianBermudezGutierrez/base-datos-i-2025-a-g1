@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  postgres1:
+    build: ./postgres1
+    container_name: server-postgres1
+    restart: always
+    env_file:
+      - ./postgres1/.env
+    ports:
+      - "5432:5432"
+
+  postgres2:
+    build: ./postgres2
+    container_name: server-postgres2
+    restart: always
+    env_file:
+      - ./postgres2/.env
+    ports:
+      - "5433:5432"
