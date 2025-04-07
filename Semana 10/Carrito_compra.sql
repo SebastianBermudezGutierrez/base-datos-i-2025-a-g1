@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS carrito_db;
+
+CREATE DATABASE carrito_db;
+
+use carrito_db;
 
 CREATE TABLE persona (
     id INT PRIMARY KEY auto_increment,
